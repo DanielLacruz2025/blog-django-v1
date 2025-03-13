@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Djanjo blog</title>
+    <title>Django Blog</title>
 </head>
 <body>
-    <Header>
-        <a href="">Blog de Josefino</a>
-    </Header>
+    <header>
+        <h1><a href="{% url 'publications-list' %}">Blog de Josefino</a></h1>
+    </header>
     {% block content %}
 
     {% endblock content %}
