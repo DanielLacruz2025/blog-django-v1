@@ -26,3 +26,5 @@ class PublicationDeleteView(DeleteView):
     model = Publication
     template_name = 'publication-delete.html'
     success_url = reverse_lazy ('publications-list')
+
+    
