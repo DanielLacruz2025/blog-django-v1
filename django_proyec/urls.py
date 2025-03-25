@@ -1,7 +1,7 @@
 """
 URL configuration for django_proyec project.
 
-The `urlpatterns` list routes URLs to views. For more information please see:
+The urlpatterns list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
 Examples:
 Function views
@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('blog.urls')) , 
-    path('accounts/', include('django.contrib.auth.urls')), # new
+    path('', include('blog.urls')) , # New
+    path('accounts/', include('django.contrib.auth.urls')), # New
 ]
