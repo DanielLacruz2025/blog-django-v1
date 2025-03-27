@@ -1,8 +1,8 @@
 from .models import Publication
-from django.views.generic import ListView, DetailView
-from django.views.generic.edit import CreateView, UpdateView, DeleteView
-from django.urls import reverse_lazy
-from django.contrib.auth.mixins import (
+from django.views.generic import ListView, DetailView # type: ignore
+from django.views.generic.edit import CreateView, UpdateView, DeleteView # type: ignore
+from django.urls import reverse_lazy # type: ignore
+from django.contrib.auth.mixins import ( # type: ignore
                                         LoginRequiredMixin,
                                         UserPassesTestMixin
                                         ) # type: ignore
